@@ -285,7 +285,7 @@ a { color: inherit; }
     max-width: 320px;
     aspect-ratio: 4 / 5;
     object-fit: cover;
-    object-position: 66% 30%;
+    object-position: 80% 30%;
     border: 1px solid var(--line-strong);
     filter: saturate(0.85) contrast(1.02);
 }
