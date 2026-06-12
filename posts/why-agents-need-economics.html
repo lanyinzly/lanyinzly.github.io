@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-en="Why Agents Need Economics, Not Just Prompts — Lanyin Zhang" data-zh="为什么智能体需要经济学，而不仅仅是提示词 — Lanyin Zhang">Why Agents Need Economics, Not Just Prompts — Lanyin Zhang</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23faf7f1'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-style='italic' font-size='17' fill='%23c04a17' text-anchor='middle'%3Elz%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@500;600&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<div class="frame" id="page">
+
+    <header class="nav">
+        <a href="../index.html" class="nav-name">Lanyin <em>·</em> Zhang</a>
+        <nav class="nav-links">
+            <a href="../writings.html" class="nav-link-keep" data-en="← Writings" data-zh="← 写作">← Writings</a>
+            <button class="lang-toggle" type="button" aria-label="Switch language / 切换语言">
+                <span data-lang-opt="en" class="lang-active">EN</span><span data-lang-opt="zh">中文</span>
+            </button>
+        </nav>
+    </header>
+
+    <article class="post">
+        <header>
+            <div class="post-meta">
+                <time datetime="2026-03-22" data-en="March 22, 2026" data-zh="2026 年 3 月 22 日">March 22, 2026</time>
+                <span class="post-category" data-en="Agent systems" data-zh="智能体系统">Agent systems</span>
+            </div>
+            <h1 data-en="Why Agents Need Economics, Not Just Prompts"
+                data-zh="为什么智能体需要经济学，而不仅仅是提示词">Why Agents Need Economics, Not Just Prompts</h1>
+        </header>
+
+        <div class="post-body" data-lang="en">
+            <p>Most agent frameworks focus on orchestration — who calls whom, in what order, with what context window. This is important engineering work. But it misses the deeper question: <strong>why would an agent cooperate?</strong></p>
+
+            <h2>The Orchestration Trap</h2>
+            <p>When we design multi-agent systems today, we implicitly assume that all agents share a common objective function. Agent A calls Agent B, passes context, gets a result. The system works because we wrote all the agents and hardcoded their cooperation.</p>
+            <p>But this breaks the moment agents have different principals — different users, different organizations, different economic interests. In the real world, cooperation is not a given. It must be incentivized.</p>
+
+            <h2>What DeFi Taught Us</h2>
+            <p>Decentralized Finance solved a version of this problem for capital. AMMs, bonding curves, and mechanism design created systems where self-interested actors produce collectively beneficial outcomes — not through trust, but through economic architecture.</p>
+            <p>The same principles apply to agents:</p>
+            <ul>
+                <li><strong>Staking:</strong> Agents put skin in the game before participating</li>
+                <li><strong>Bonding curves:</strong> Agent services priced by supply and demand</li>
+                <li><strong>Slashing:</strong> Bad behavior has real economic consequences</li>
+            </ul>
+
+            <h2>Toward Agent Economics</h2>
+            <p>This is the thesis behind what I'm building: the next leap in multi-agent systems isn't better prompting or more sophisticated RAG pipelines. It's economic infrastructure — on-chain primitives that align agent incentives at the protocol level.</p>
+            <p>The question isn't "how do I make GPT-4 and Claude work together?" It's "how do I create a market where any agent can offer services, stake reputation, and get paid — trustlessly?"</p>
+
+            <hr>
+            <p><em>This is an early articulation of an idea I expect to develop further. Timestamped here for future reference.</em></p>
+        </div>
+
+        <div class="post-body" data-lang="zh" hidden>
+            <p>大多数智能体框架关注的是编排——谁调用谁、以什么顺序、用什么上下文窗口。这是重要的工程工作。但它忽略了一个更深层的问题：<strong>智能体为什么要合作？</strong></p>
+
+            <h2>编排陷阱</h2>
+            <p>当我们今天设计多智能体系统时，我们隐含地假设所有智能体共享一个共同的目标函数。智能体 A 调用智能体 B，传递上下文，获得结果。系统之所以能工作，是因为我们编写了所有智能体并硬编码了它们的合作关系。</p>
+            <p>但当智能体有不同的委托人——不同的用户、不同的组织、不同的经济利益时，这就行不通了。在现实世界中，合作不是理所当然的。它必须被激励。</p>
+
+            <h2>DeFi 教会了我们什么</h2>
+            <p>去中心化金融为资本解决了这个问题的一个版本。AMM、绑定曲线和机制设计创造了这样的系统：自利的参与者产生集体有益的结果——不是通过信任，而是通过经济架构。</p>
+            <p>同样的原则适用于智能体：</p>
+            <ul>
+                <li><strong>质押：</strong>智能体在参与之前投入利益</li>
+                <li><strong>绑定曲线：</strong>智能体服务按供需定价</li>
+                <li><strong>惩罚机制：</strong>不良行为承担真实的经济后果</li>
+            </ul>
+
+            <h2>迈向智能体经济学</h2>
+            <p>这就是我正在构建的核心论点：多智能体系统的下一次飞跃不是更好的提示词或更复杂的 RAG 管线。而是经济基础设施——在协议层面对齐智能体激励的链上原语。</p>
+            <p>问题不是"如何让 GPT-4 和 Claude 一起工作？"而是"如何创建一个市场，让任何智能体都能提供服务、质押声誉、并获得支付——无需信任？"</p>
+
+            <hr>
+            <p><em>这是一个我预期会进一步发展的想法的早期表述。在此标注时间以供未来参考。</em></p>
+        </div>
+
+        <div class="post-footer">
+            <a class="text-link" href="../writings.html" data-en="← Back to all writings" data-zh="← 返回所有文章">← Back to all writings</a>
+        </div>
+    </article>
+
+    <footer>
+        <p>© 2025–2026 Lanyin (Elaine) Zhang</p>
+        <p><a href="../index.html" data-en="← Back home" data-zh="← 返回首页">← Back home</a></p>
+    </footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
