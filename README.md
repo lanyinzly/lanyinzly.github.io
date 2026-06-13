@@ -36,6 +36,16 @@ Both languages live **side by side in the same markup**, so a page can never be 
 2. Replace the title (`<title>` + `<h1>`), date (`<time>`), category, and the two `post-body` blocks (EN + 中文).
 3. Add a `timeline-entry` for it in `writings.html` under the right year (categories: `agent`, `crypto`, `philosophy` — or add a new `cat-btn`).
 4. Optionally add it to the “Writings” preview list in `index.html`.
+5. **For SEO/GEO:** in the new post's `<head>`, update the `canonical`, `meta description`, the `og:`/`twitter:` tags, and the `BlogPosting` JSON-LD (headline, `datePublished`, `articleSection`). Then add the new URL to `sitemap.xml`, add a line for it under "## Pages" in `llms.txt`, and add a `blogPost` entry to the `Blog` JSON-LD in `writings.html`.
+
+## SEO & GEO
+
+The site ships a machine-readable layer so search engines and AI answer engines can index and cite it:
+
+- **Structured data (JSON-LD):** `Person` + `WebSite` + `ProfilePage` on the home page, a `Blog` graph on `writings.html`, and `BlogPosting` on each post. This is the entity layer that tells Google and LLMs *who Lanyin Zhang is*.
+- **Meta:** canonical URLs, Open Graph + Twitter cards on every page, sharing the card at `assets/img/og-image.png` (1200×630).
+- **Crawler files:** `robots.txt`, `sitemap.xml`, and `llms.txt` (a plain-text map for AI crawlers — keep its facts and definitions current).
+- **Off-site (not in this repo, but the highest-leverage work):** keep the name "Lanyin (Elaine) Zhang" and bio identical across LinkedIn, X, GitHub, SSRN, and Google Scholar; create a Wikidata item; submit `sitemap.xml` to Google Search Console and Bing Webmaster Tools.
 
 ## Pages
 

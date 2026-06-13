@@ -1,0 +1,6 @@
+# https://lanyinzly.github.io/
+# All crawlers, including AI/search engines, are welcome.
+User-agent: *
+Allow: /
+
+Sitemap: https://lanyinzly.github.io/sitemap.xml
