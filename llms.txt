@@ -30,14 +30,12 @@ https://lanyinzly.github.io/.
 - [Home / About](https://lanyinzly.github.io/): bio, research directions, projects.
 - [Writings](https://lanyinzly.github.io/writings.html): essays, blog, and journal.
 - [Why Agents Need Economics, Not Just Prompts](https://lanyinzly.github.io/posts/why-agents-need-economics.html): essay on incentive alignment for multi-agent systems (2026-03-22).
-- [On Transcendent Ideas and the Duty to Write](https://lanyinzly.github.io/posts/on-transcendent-ideas.html): essay on writing as a commitment device (2026-02-14).
 
 ## Projects
 
 - ERC-7527 — Function Oracle AMM: https://eips.ethereum.org/EIPS/eip-7527 — showcase: https://wrap-site-five.vercel.app/
 - ERC-7615 — push-based event subscription: https://eips.ethereum.org/EIPS/eip-7615
-- AgentBall — on-chain economic infrastructure for AI agents: https://agentball.ai
-- MyFate — AI-native prediction market inside a game: https://myfate.fun
+- Bank of Agents — a forward market for AI compute: https://bank-of-agent.vercel.app/
 
 ## Elsewhere
 
